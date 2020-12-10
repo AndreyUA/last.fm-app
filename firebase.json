@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "site": "last-fm",
-    "public": "y",
+    "site": "last-fm-app",
+    "public": "build",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
