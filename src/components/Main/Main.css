@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+}
+
+.Main_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.Main_item_content {
+  position: relative;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.Main_item_content_track {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.Main_item_content_artist {
+  color: #000;
+}
+
+.Main_item_content_lastfm {
+  text-decoration: none;
+  position: absolute;
+  right: 20px;
+}

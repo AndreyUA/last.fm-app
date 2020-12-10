@@ -1,0 +1,60 @@
+.Track {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Track_container {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.Track_form {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Track_form_inp {
+  padding: 10px;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.5);
+  outline: none;
+  color: #000;
+  width: 40%;
+}
+
+.Track_form_btn {
+  width: 10%;
+  border: none;
+  height: 55px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Track_form_fail {
+  margin: 10px 0;
+}
+
+.Result {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 600px;
+  background-color: #edeaea;
+  margin: 5px 0;
+}
+
+.Result_content {
+  margin-left: 20px;
+}
+
+.Result_track {
+  font-weight: bold;
+}
